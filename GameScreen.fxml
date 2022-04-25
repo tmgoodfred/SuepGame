@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="614.0" prefWidth="885.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="SuepGame.GameScreenController">
+   <children>
+      <ImageView fitHeight="466.0" fitWidth="230.0" layoutX="76.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../photos/suep.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="466.0" fitWidth="212.0" layoutX="631.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../photos/levi.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="leviTxt" layoutX="372.0" layoutY="66.0" prefHeight="80.0" prefWidth="244.0" text="Label" />
+      <Label fx:id="suepTxt" layoutX="312.0" layoutY="208.0" prefHeight="80.0" prefWidth="230.0" text="Label" />
+      <Button fx:id="nextButton" layoutX="388.0" layoutY="512.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="110.0" text="Next" />
+      <Button fx:id="backButton" layoutX="421.0" layoutY="550.0" mnemonicParsing="false" text="Back" />
+   </children>
+</AnchorPane>
